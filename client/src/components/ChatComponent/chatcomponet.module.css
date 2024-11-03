@@ -1,0 +1,34 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    margin: 0 auto;
+    border-radius: 8px;
+    overflow-y: auto;
+  }
+  
+
+  .chatMessages {
+    flex: 1;
+    padding: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  
+  .message {
+    padding: 10px;
+    border-radius: 12px;
+    max-width: 70%;
+    font-size: 0.9rem;
+  }
+  
+  .incoming {
+    align-self: flex-start;
+    background-color: #e0f7fa;
+  }
+  
+  .outgoing {
+    align-self: flex-end;
+    background-color: #c5cae9;
+  }
